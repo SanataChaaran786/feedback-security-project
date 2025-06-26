@@ -1,0 +1,23 @@
+Cybersecurity Internship – Final Security Checklist
+
+✅ Week 1 – Vulnerability Testing
+- Explored mock Node.js feedback web app
+- Tested Cross-Site Scripting (XSS) vulnerability
+- Verified response/request headers using DevTools
+- Documented findings with screenshots
+
+✅ Week 2 – Fixes Applied
+- Added Helmet middleware to secure HTTP headers
+- Used validator.escape() to sanitize user input
+- Verified that XSS input no longer executes
+- Checked that security headers are present
+
+✅ Week 3 – Logging & Monitoring
+- Integrated Winston logger
+- Logged all submitted feedback
+- Flagged suspicious input like <script> tags
+- Saved logs to both terminal and security.log file
+
+🎯 All work has been tested and documented.
+📸 Screenshots are included in /screenshots folder.
+📄 Reports (if any) are included in /reports folder.

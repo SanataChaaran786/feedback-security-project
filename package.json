@@ -1,0 +1,15 @@
+{
+  "name": "feedback-app",
+  "version": "1.0.0",
+  "description": "Simple feedback web app for security testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^8.1.0",
+    "validator": "^13.15.15",
+    "winston": "^3.17.0"
+  }
+}
